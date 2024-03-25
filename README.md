@@ -32,6 +32,19 @@ Python file and folder renamer with GUI and log
 6. Completion Message: Upon completion, a message will display the total number of renamed items, and a CSV report will be generated with detailed information about the changes made.
 
 **Notes:**
+
 - The "Old Character" and "New Character" fields are case-sensitive.
+- If the script attempts to rename a file, and a file with that name already exists in the folder, a number will be added to the end of the new file name. For example, if the script wants to rename 'final_report.pdf' to 'final report.pdf' and a 'final report.pdf' file already exists in the same path, the 'final_report.pdf' file will be renamed to 'final report 2.pdf'. The numbered files will be tagged in the ‘Numbered’ column in the CSV output.
 - Renaming is irreversible, so ensure you have backups of important files.
 - Use the application with caution, and verify your inputs before proceeding.
+
+**Installation:**
+
+- First, install Python 3.x on your system. You can download Python from [here](https://www.python.org/downloads).
+- Next, download the Renamer Python script from [this link](https://github.com/UBC-Archives/renamer/blob/main/UBC-RMO_Renamer.py).
+- Once downloaded, double-click on the downloaded UBC-RMO_Renamer.py file to run the program.
+
+**Disclaimer:**
+
+The UBC Records Management Office is not responsible for any loss of data or unintended consequences resulting from the use of this script. Exercise caution and thoroughly review the script to ensure it aligns with your requirements. Please understand and review the changes this script will make to your data before proceeding. If you are uncertain about its functionality or impact, seek professional advice or assistance.
+By using this script, you acknowledge and accept the potential risks and responsibilities associated with renaming files and folders, and you agree to use it responsibly and with appropriate precautions.
